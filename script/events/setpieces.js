@@ -117,7 +117,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 1,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 5,
 				notification: _('a startled beast defends its home'),
 				loot: {
@@ -135,7 +135,7 @@ Events.Setpieces = {
 				buttons: {
 					'continue': {
 						text: _('continue'),
-						cooldown: Events._LEAVE_COOLDOWN,
+						: Events._LEAVE_,
 						nextScene: {0.5: 'b1', 1: 'b2'}
 					},
 					'leave': {
@@ -262,7 +262,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 1,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0, 
 				health: 5,
 				notification: _('a startled beast defends its home'),
 				loot: {
@@ -296,7 +296,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0, 
 				health: 6,
 				notification: _('a cave lizard attacks'),
 				loot: {
@@ -330,7 +330,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				notification: _('a large beast charges out of the dark'),
 				loot: {
@@ -364,7 +364,7 @@ Events.Setpieces = {
 				chara: 'T',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				notification: _('a giant lizard shambles forward'),
 				loot: {
@@ -566,7 +566,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cloth': {
@@ -661,7 +661,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cloth': {
@@ -700,7 +700,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 25,
 				loot: {
 					'teeth': {
@@ -774,7 +774,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 6,
 				hit: 0.3,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'cloth': {
@@ -813,7 +813,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cloth': {
@@ -852,7 +852,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 25,
 				loot: {
 					'teeth': {
@@ -903,7 +903,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 25,
 				loot: {
 					'teeth': {
@@ -978,7 +978,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cured meat': {
@@ -1017,7 +1017,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 6,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cured meat': {
@@ -1348,7 +1348,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 20,
 				loot: {
 					'scales': {
@@ -1387,7 +1387,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 15,
 				hit: 0.8,
-				attackDelay: 4,
+				attackDelay: 0,
 				health: 30,
 				ranged: true,
 				loot: {
@@ -1428,7 +1428,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 8,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 50,
 				loot: {
 					'cured meat': {
@@ -1467,7 +1467,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 1,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'cured meat': {
@@ -1543,7 +1543,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.5,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'cured meat': {
@@ -1582,7 +1582,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'steel sword': {
@@ -1622,7 +1622,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 2,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'meat': {
@@ -1841,7 +1841,7 @@ Events.Setpieces = {
 				chara: 'EEE',
 				damage: 2,
 				hit: 0.7,
-				attackDelay: 0.5,
+				attackDelay: 0,
 				health: 40,
 				loot: {
 					'cured meat': {
@@ -1882,7 +1882,7 @@ Events.Setpieces = {
 				chara: 'RRR',
 				damage: 4,
 				hit: 0.7,
-				attackDelay: 0.7,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'meat': {
@@ -1947,7 +1947,7 @@ Events.Setpieces = {
 				chara: 'R',
 				damage: 5,
 				hit: 0.7,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 45,
 				loot: {
 					'meat': {
@@ -2019,7 +2019,7 @@ Events.Setpieces = {
 				chara: 'RRR',
 				damage: 1,
 				hit: 0.8,
-				attackDelay: 0.25,
+				attackDelay: 0,
 				health: 60,
 				loot: {
 					'fur': {
@@ -2054,7 +2054,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 6,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0, 
 				health: 45,
 				loot: {
 					'bayonet': {
@@ -2090,7 +2090,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 8,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0, 
 				health: 50,
 				loot: {
 					'cured meat': {
@@ -2131,7 +2131,7 @@ Events.Setpieces = {
 				ranged: true,
 				damage: 3,
 				hit: 0.9,
-				attackDelay: 2,
+				attackDelay: 0, 
 				health: 55,
 				loot: {
 					'rifle': {
@@ -2172,7 +2172,7 @@ Events.Setpieces = {
 				chara: 'EEE',
 				damage: 2,
 				hit: 0.7,
-				attackDelay: 0.5,
+				attackDelay: 0, 
 				health: 40,
 				loot: {
 					'cloth': {
@@ -2207,7 +2207,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 2,
 				hit: 0.7,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 45,
 				loot: {
 					'cloth': {
@@ -2242,7 +2242,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 20,
 				loot: {
 					'cloth': {
@@ -2277,7 +2277,7 @@ Events.Setpieces = {
 				chara: 'T',
 				damage: 8,
 				hit: 0.6,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 40,
 				loot: {
 					'cloth': {
@@ -2318,7 +2318,7 @@ Events.Setpieces = {
 				chara: 'TTT',
 				damage: 2,
 				hit: 0.6,
-				attackDelay: 0.5,
+				attackDelay: 0, 
 				health: 60,
 				loot: {
 					'meat': {
@@ -3019,7 +3019,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				notification: _('a man charges down the hall, a rusty blade in his hand'),
 				onLoad: function() {
@@ -3188,7 +3188,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 8,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 50,
 				loot: {
 					'cured meat': {
@@ -3228,7 +3228,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 8,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 50,
 				loot: {
 					'cured meat': {
@@ -3267,7 +3267,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 10,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 65,
 				loot: {
 					'bayonet': {
@@ -3337,7 +3337,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'cured meat': {
@@ -3371,7 +3371,7 @@ Events.Setpieces = {
 				chara: 'E',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'cured meat': {
@@ -3405,7 +3405,7 @@ Events.Setpieces = {
 				chara: 'D',
 				damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 20,
 				loot: {
 					'cured meat': {
@@ -3482,7 +3482,7 @@ Events.Setpieces = {
 				chara: 'T',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 10,
 				loot: {
 					'teeth': {
