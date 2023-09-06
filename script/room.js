@@ -3,7 +3,7 @@
  */
 var Room = {
 	// times in (minutes * seconds * milliseconds)
-	_FIRE_COOL_DELAY: 0 * 5 * 0, // time after a stoke before the fire cools
+	_FIRE_COOL_DELAY: 0.5 * 5 * 1000, // time after a stoke before the fire cools
 	_ROOM_WARM_DELAY: 0 * 0 * 0, // time between room temperature updates
 	_BUILDER_STATE_DELAY: 0, // time between builder state updates
 	_STOKE_COOLDOWN: 0, // cooldown to stoke the fire
