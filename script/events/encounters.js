@@ -17,7 +17,7 @@ Events.Encounters = [
 				chara: 'R',
 				damage: 1,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 5,
 				loot: {
 					'fur': {
@@ -54,7 +54,7 @@ Events.Encounters = [
 				chara: 'E',
 				damage: 2,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 6,
 				loot: {
 					'cloth': {
@@ -91,7 +91,7 @@ Events.Encounters = [
 				chara: 'R',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 4,
 				loot: {
 					'scales': {
@@ -129,7 +129,7 @@ Events.Encounters = [
 				chara: 'E',
 				damage: 5,
 				hit: 0.5,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 20,
 				loot: {
 					'cloth': {
@@ -171,7 +171,7 @@ Events.Encounters = [
 				chara: 'T',
 				damage: 3,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 25,
 				loot: {
 					'fur': {
@@ -208,7 +208,7 @@ Events.Encounters = [
 				chara: 'E',
 				damage: 4,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 30,
 				loot: {
 					'cloth': {
@@ -250,7 +250,7 @@ Events.Encounters = [
 				chara: 'T',
 				damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 20,
 				loot: {
 					'scales': {
@@ -288,7 +288,7 @@ Events.Encounters = [
 				chara: 'T',
 				damage: 6,
 				hit: 0.8,
-				attackDelay: 1,
+				attackDelay: 0,
 				health: 45,
 				loot: {
 					'fur': {
@@ -326,7 +326,7 @@ Events.Encounters = [
 				chara: 'D',
 				damage: 8,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 50,
 				loot: {
 					'cloth': {
@@ -368,7 +368,7 @@ Events.Encounters = [
 				chara: 'D',
 				damage: 15,
 				hit: 0.8,
-				attackDelay: 4,
+				attackDelay: 0,
 				health: 30,
 				ranged: true,
 				loot: {
