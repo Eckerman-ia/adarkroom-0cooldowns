@@ -29,14 +29,14 @@ var World = {
   BASE_WATER: 10,
   MOVES_PER_FOOD: 2,
   MOVES_PER_WATER: 1,
-  DEATH_COOLDOWN: 120,
+  DEATH_COOLDOWN: 0,
   FIGHT_CHANCE: 0.20,
   BASE_HEALTH: 10,
   BASE_HIT_CHANCE: 0.8,
   MEAT_HEAL: 8,
   MEDS_HEAL: 20,
   HYPO_HEAL: 30,
-  FIGHT_DELAY: 3, // At least three moves between fights
+  FIGHT_DELAY: 5, // At least three moves between fights
   NORTH: [ 0, -1],
   SOUTH: [ 0,  1],
   WEST:  [-1,  0],
