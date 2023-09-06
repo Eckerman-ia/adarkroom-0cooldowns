@@ -2,12 +2,12 @@
  * Module that registers the starship!
  */
 var Ship = {
-	LIFTOFF_COOLDOWN: 120,
+	LIFTOFF_COOLDOWN: 0,
 	ALLOY_PER_HULL: 1,
 	ALLOY_PER_THRUSTER: 1,
 	BASE_HULL: 0,
 	BASE_THRUSTERS: 1,
-	name: _("Ship"),
+	name: _("zoom zoom"),
 	init: function(options) {
 		this.options = $.extend(
 			this.options,
@@ -23,7 +23,7 @@ var Ship = {
 		}
 		
 		// Create the Ship tab
-		this.tab = Header.addLocation(_("An Old Starship"), "ship", Ship);
+		this.tab = Header.addLocation(_("old zoom zoom"), "ship", Ship);
 		
 		// Create the Ship panel
 		this.panel = $('<div>').attr('id', "shipPanel")
@@ -65,7 +65,7 @@ var Ship = {
 		// Draw the lift off button
 		var b = new Button.Button({
 			id: 'liftoffButton',
-			text: _('lift off'),
+			text: _('time to go zoom zoom, not boom'),
 			click: Ship.checkLiftOff,
 			width: '100px',
 			cooldown: Ship.LIFTOFF_COOLDOWN
@@ -133,11 +133,11 @@ var Ship = {
 	checkLiftOff: function() {
 		if(!$SM.get('game.spaceShip.seenWarning')) {
 			Events.startEvent({
-				title: _('Ready to Leave?'),
+				title: _('go zoom zoom?'),
 				scenes: {
 					'start': {
 						text: [
-							_("time to get out of this place. won't be coming back.")
+							_("time to go zoom zoom and not go bak")
 						],
 						buttons: {
 							'fly': {
