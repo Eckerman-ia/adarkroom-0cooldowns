@@ -1,8 +1,8 @@
 A Dark Room
 ===========
-> "awake. head throbbing. vision blurry. come light the fire."
+> "awake. head throbbing. vision blurry. come light the fire. IT IMMEDIATELY GOES OUT."
 
-a minimalist text adventure game for your browser
+a minimalist text ~~adventure game~~ living hell for your browser.
 
 [Click to play](http://adarkroom.doublespeakgames.com)
 
