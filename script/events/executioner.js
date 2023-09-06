@@ -9,7 +9,7 @@ Enemies.Executioner = {
     chara: 'G',
     damage: 10,
     hit: 0.8,
-    attackDelay: 2,
+    attackDelay: 0,
     health: 60,
     loot: {
       'energy cell': {
@@ -38,7 +38,7 @@ Enemies.Executioner = {
     chara: 'Q',
     damage: 8,
     hit: 0.8,
-    attackDelay: 1,
+    attackDelay: 0,
     health: 70,
     loot: {
       'alien alloy': {
@@ -62,7 +62,7 @@ Enemies.Executioner = {
     chara: 'M',
     damage: 15,
     hit: 0.8,
-    attackDelay: 3,
+    attackDelay: 0, 
     health: 80,
     atHealth: {
       40: fighter => {
@@ -92,7 +92,7 @@ Enemies.Executioner = {
     chara: 'T',
     damage: 25,
     hit: 0.8,
-    attackDelay: 4,
+    attackDelay: 0, 
     health: 50,
     loot: {
       'energy cell': {
@@ -195,7 +195,7 @@ Events.Executioner = {
         chara: 'H',
         damage: 1,
         hit: 0.7,
-        attackDelay: 0.25,
+        attackDelay: 0, 
         health: 60,
         loot: {
           'meat': {
@@ -229,7 +229,7 @@ Events.Executioner = {
         chara: 'Q',
         damage: 1,
         hit: 0.7,
-        attackDelay: 0.25,
+        attackDelay: 0, 
         health: 70,
         loot: {
           'meat': {
@@ -263,7 +263,7 @@ Events.Executioner = {
         chara: 'O',
         damage: 8,
         hit: 0.8,
-        attackDelay: 2,
+        attackDelay: 0, 
         health: 60,
         loot: {
           'bayonet': {
@@ -342,7 +342,7 @@ Events.Executioner = {
         chara: 'R',
         damage: 1,
         hit: 0.8,
-        attackDelay: 2,
+        attackDelay: 0, 
         health: 20,
         loot: {
           'torch': {
@@ -443,7 +443,7 @@ Events.Executioner = {
         chara: 'A',
         damage: 6,
         hit: 0.8,
-        attackDelay: 1,
+        attackDelay: 0, 
         health: 60,
         loot: {
           'fur': {
@@ -501,7 +501,7 @@ Events.Executioner = {
         chara: 'T',
         damage: 10,
         hit: 0.8,
-        attackDelay: 2.5,
+        attackDelay: 
         health: 60,
         loot: {
           'energy cell': {
@@ -653,7 +653,7 @@ Events.Executioner = {
         chara: 'W',
         damage: 13,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0, 
 				health: 50,
         loot: {
           'energy cell': {
@@ -983,10 +983,10 @@ Events.Executioner = {
         chara: 'P',
         damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 150,
         specials:[{
-          delay: 5,
+          delay: 0,
           action: (fighter) => {
             Events.setStatus(fighter, 'shield');
             return 'shield';
@@ -1531,10 +1531,10 @@ Events.Executioner = {
         chara: 'M',
         damage: 10,
 				hit: 0.8,
-				attackDelay: 3,
+				attackDelay: 0,
 				health: 250,
         specials:[{
-          delay: 13,
+          delay: 0,
           action: (fighter) => {
             Events.setStatus(fighter, 'energised');
             return 'energised';
@@ -1858,7 +1858,7 @@ Events.Executioner = {
         chara: 'A',
         damage: 10,
 				hit: 0.7,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 100,
         explosion: 30,
         loot: {
@@ -2109,10 +2109,10 @@ Events.Executioner = {
         chara: 'E',
         damage: 5,
 				hit: 0.8,
-				attackDelay: 2,
+				attackDelay: 0,
 				health: 200,
         specials: [{
-          delay: 16,
+          delay: 0,
           action: (fighter) => {
             Events.setStatus(fighter, 'enraged');
             return 'enraged';
@@ -2291,13 +2291,13 @@ Events.Executioner = {
         chara: '@',
         damage: 12,
         hit: 0.8,
-        attackDelay: 2,
+        attackDelay: 0,
         health: 500,
         onLoad: () => {
           Events._lastSpecial = 'none';
         },
         specials: [{
-          delay: 7,
+          delay: 0,
           action: (fighter) => {
             const last = Events._lastSpecial ?? 'none';
             const possible = [ 'shield', 'enraged', 'meditation' ].filter(p => p !== last);
